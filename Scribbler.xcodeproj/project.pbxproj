@@ -13,6 +13,7 @@
 		B6C870BC1976106A005064B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C870BA1976106A005064B5 /* Main.storyboard */; };
 		B6C870BE1976106A005064B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C870BD1976106A005064B5 /* Images.xcassets */; };
 		B6C870CA1976106A005064B5 /* ScribblerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C870C91976106A005064B5 /* ScribblerTests.m */; };
+		B6C870D5197610F0005064B5 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C870D4197610F0005064B5 /* CanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		B6C870C31976106A005064B5 /* ScribblerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribblerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C870C81976106A005064B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C870C91976106A005064B5 /* ScribblerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribblerTests.m; sourceTree = "<group>"; };
+		B6C870D3197610F0005064B5 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		B6C870D4197610F0005064B5 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				B6C870BA1976106A005064B5 /* Main.storyboard */,
 				B6C870BD1976106A005064B5 /* Images.xcassets */,
 				B6C870B01976106A005064B5 /* Supporting Files */,
+				B6C870D3197610F0005064B5 /* CanvasView.h */,
+				B6C870D4197610F0005064B5 /* CanvasView.m */,
 			);
 			path = Scribbler;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			files = (
 				B6C870B91976106A005064B5 /* ViewController.m in Sources */,
 				B6C870B61976106A005064B5 /* AppDelegate.m in Sources */,
+				B6C870D5197610F0005064B5 /* CanvasView.m in Sources */,
 				B6C870B31976106A005064B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
